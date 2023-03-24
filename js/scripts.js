@@ -10,5 +10,3 @@ function onSubmit(event) {
     setTimeout(() =>msg.remove(), 3000);
     window.onload
 }
-
-console.log()
