@@ -8,7 +8,7 @@ python: "Python is an interpreted, high-level, general-purpose programming langu
 
 function generateOutput(experience, purpose, languages) {
 let output = "";
-output += `Based on your experience level of {experience} and your interest in {purpose}, we suggest you try using `;
+output += `Based on your experience level of ${experience} and your interest in ${purpose}, we suggest you try using `;
 if (languages.length === 1) {
 output += languages[0];
 } else if (languages.length === 2) {
