@@ -52,6 +52,6 @@ suggestedLanguages.push("Python");
 suggestedLanguages.push("Ruby", "Python");
 }
 
-output.textContent = `Based on your experience level, purpose, and preferred languages, we suggest the following language(s): {suggestedLanguages.join(", ")}.`;
+output.textContent = `Based on your experience level, purpose, and preferred languages, we suggest the following language(s): ${suggestedLanguages.join(", ")}.`;
 });
 });
