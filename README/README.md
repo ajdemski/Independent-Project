@@ -1,6 +1,6 @@
 # _Language Suggester_
 
-_The Language Suggester is a project created by Aaron Demski. The repository includes index.html, css/styles.css, and the README folder. This website provides information all about me!_
+_The Language Suggester is a project created by Aaron Demski. The repository includes index.html, css/styles.css, and the README folder. This website gives you a code language as an output based on what you input in the questions, answer them all to find out what code language will best suite you!_
 
 # _Technologies Used_
 
