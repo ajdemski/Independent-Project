@@ -1,42 +1,43 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Programming Language Suggester</title>
-    <link rel="stylesheet" href="css\styles.css">
     <script src="js\scripts.js"></script>
+    <link rel="stylesheet" href="css\styles.css">
   </head>
   <body>
-    <header>
-      <h1>Aaron's Programming Language Suggester</h1>
-    </header>
-
-    <section class="container">
-      <form id="my-form">
-        <h1>Answer the three questions below to find out what programming language would best suite you!</h1>
-        <h2>What is your favorite animal?</h2>
-        <div class="question1">
-          <label for="answer34">1. Fox</label>
-          <label for="answer23">2. Elephant</label>
-          <label for="answer12">3. Leopard</label>
-          <input type="text" id="answer2">
-        </div>
-      </form>
-    </section>
-    <section class="container">
-      <form id="my-form">
-        <h3>Would you rather?</h3>
-        <div class="question2">
-          <label for="answer123">1. Go skydiving</label>
-            <label for="answer345">2. Go take a nap</label>
-            <label for="answer234">3. Go for a nice bike ride on the beach</label>
-        </div>
-      </form>
-    </section>
-    <section>
-      <form id="my-form">
-        <h4></h4>
-      </form>
-    </section>
+    <h1>Programming Language Suggester</h1>
+    <div>
+      <label for="experience">How much programming experience do you have?</label>
+      <select id="experience" name="experience">
+        <option value="none">None</option>
+        <option value="beginner">Beginner</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="advanced">Advanced</option>
+      </select><br><br>
+      
+      <label for="purpose">What do you want to use programming for?</label>
+      <input type="radio" id="purpose1" name="purpose" value="web-development">
+      <label for="purpose1">Web Development</label><br>
+      <input type="radio" id="purpose2" name="purpose" value="data-analysis">
+      <label for="purpose2">Data Analysis</label><br>
+      <input type="radio" id="purpose3" name="purpose" value="game-development">
+      <label for="purpose3">Game Development</label><br><br>
+      
+      <label for="language">Which of these languages do you prefer?</label>
+      <input type="checkbox" id="language1" name="language" value="ruby">
+      <label for="language1">Ruby</label><br>
+      <input type="checkbox" id="language2" name="language" value="javascript">
+      <label for="language2">JavaScript</label><br>
+      <input type="checkbox" id="language3" name="language" value="python">
+      <label for="language3">Python</label><br><br>
+      
+      <button type="submit">Submit</button>
+    </div>
+    <h2>Results</h2>
+    <p id="output"></p>
+  </body>
+</html>
